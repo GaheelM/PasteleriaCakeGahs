@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html lang="es"> 
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8"/>
+        <title>CAKE GAH'S</title>
+        <meta name="description" content="Esta es la pasteleria de Gah, 
+        contamos con muchos sabores y un excelente servicio."/>
+        <meta name="author" content="Gaheel"/>
+        <meta name="keywords" content="Pastelería, Cake, Fiestas" />
+    </head>
+    <body>
+        <link rel="stylesheet" href="style.css">
+        <h2 class="titulo" style="color: rgb(238, 124, 241);">BIENVENID@ A CAKE GAH'S</h2>
+        <div align="center">
+            <img src="Imagenes/PruebaLogo.png" alt="Este es nuestro Logo" class="Logo">
+        </div>
+
+        <div>
+           <hr> 
+        </div>
+
+        <div align="center">
+            <a href="CAKE GAH'S.html">Inicio</a>
+            <a href="Formulario.html">¡Realiza tu pedido!</a> 
+            <a href="Pedidos.html">Pedidos Realizados</a>
+            <a href="Informacion.html">¡Conocenos!</a> 
+        </div>
+
+        <br>
+
+        <div align="center">
+            <h3 style="color:rgb(238, 124, 241);">¡Realiza tu pedido! Por favor rellena el formulario.</h3>
+        </div>
+
+        <br>
+
+        <form>
+
+        <div align="center" class="formulario">        
+            <label>Nombre Completo</label>
+            <input type="text" name="nombre" required autocomplete>
+        </div>
+
+        <div align="center" class="formulario">        
+            <label>Número de Teléfono</label>
+            <input type="text" name="telefono" required autocomplete>
+        </div>
+
+        <div align="center" class="formulario">        
+            <label>Correo electrónico</label>
+            <input type="email" name="correo" required autocomplete>
+        </div>
+
+        <div align="center" class="formulario">        
+            <label>Sabor del pastel</label>
+            <select>
+                <option selected disabled>Selecciona el sabor</option>
+                <option>Pastel de Vainilla</option>
+                <option>Pastel de Chocolate</option>
+                <option>Pastel de Fresa</option>
+                <option>Pastel de Oreo</option>
+                <option>Pastel de Red Velvet</option>
+            </select>
+        </div>
+
+        <div align="center" class="formulario">        
+            <label>Decoraciones</label>
+            <div align="left"><input type="radio" name="decoraciones" required autocomplete>Betún</div>
+            <div align="left"><input type="radio" name="decoraciones" required autocomplete>Chispas de Chocolate</div>
+            <div align="left"><input type="radio" name="decoraciones" required autocomplete>Sprinkles</div>
+        </div>
+        
+        <div align="center" class="descripcion">        
+            <label>Descripción</label>
+            <textarea></textarea>
+        </div>
+
+        <div align="center" class="formulario">        
+            <label>Dirección del envío</label>
+            <input type="text" name="envio" required autocomplete>
+        </div>
+
+        <br>
+        </form>
+
+        <div align="center">
+            <input type="submit" value="Enviar" id="boton">
+        </div>
+
+        <br>
+
+    </body>    
